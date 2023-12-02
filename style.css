@@ -1,0 +1,171 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./bg.jpeg);
+    background-size: 100% 100%;
+}
+
+.hero-sec {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(84, 32, 40, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-cont {
+    width: 95%;
+    height: 95%;
+    border: 3px double #838185;
+    /* border-radius: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-cont {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-cont img {
+    width: 15%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.contend-cont {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contend-cont h1 {
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    color: white;    
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.contend-cont h3 {
+    font-size: 40px;
+
+    height: 15%;
+    color: white;
+    font-family: math;
+    padding-top: 15px;
+}
+
+.contend-cont h4 {
+    height: 10%;
+    color: white;
+    font-size: 20px;
+}
+
+.contend-cont h5 {
+    color: white;
+    height: 10%;
+    font-size: 15px;
+}
+
+.contend-cont input {
+    background-color: transparent;
+    width: 40%;
+    height: 10%;
+    border-bottom: 2px solid #838185;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 20px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+
+.contend-cont h2 {
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-weight: lighter;
+}
+
+.contend-cont h6 {
+    font-size: 20px;
+    color: white;
+    font-family: math;
+
+}
+.contend-cont p {
+    height: 10%;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.conduct {
+    color: white;
+    font-size: 15px;
+}
+
+.logo-text {
+    color: white;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 1.5px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+.footer-cont {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-cont div {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.footer-cont h1 {
+    font-size: 20px;
+    padding-top: 5px;
+    color: white;
+    border-top: 2px solid #838185;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+}
